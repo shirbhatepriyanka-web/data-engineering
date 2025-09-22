@@ -41,7 +41,7 @@ A database is used to define a central system in which data can be stored and qu
   - **Relational databases**: Relational databases are commonly used to store and query structured data.  Use of keys to reference data entities enables a relational database  to be normalized; which in part means the elimination of duplicate data values is called normalisation
   - **Non-relational databases**: Non-relational databases are data management systems that don’t apply a relational schema to the data. Non-relational databases are often referred to as NoSQL database, even though some support a variant of the SQL language.
         ** Four common types of Non-relational database commonly in use **:
-        - Key-value databases
-        - Document databases
-        - Column family databases
-        - Graph databases
+        Key-value databases,
+        Document databases,
+        Column family databases,
+        Graph databases
