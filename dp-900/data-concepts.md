@@ -40,8 +40,18 @@ There are two broad categories of data store in common use:
 A database is used to define a central system in which data can be stored and queried
   - **Relational databases**: Relational databases are commonly used to store and query structured data.  Use of keys to reference data entities enables a relational database  to be normalized; which in part means the elimination of duplicate data values is called normalisation
   - **Non-relational databases**: Non-relational databases are data management systems that don’t apply a relational schema to the data. Non-relational databases are often referred to as NoSQL database, even though some support a variant of the SQL language.
-        ** Four common types of Non-relational database commonly in use **:
+        **Four common types of Non-relational database commonly in use**:
         Key-value databases,
         Document databases,
         Column family databases,
         Graph databases
+
+### transactional data processing
+A transactional data processing system is a computer system that records important business events, like money transfers in a bank or payments in a store. Each transaction is a small, separate piece of work that the system keeps track of.
+
+OLTP systems use databases designed for fast reading and writing of data. They handle day-to-day business transactions (create, read, update, delete – CRUD) while keeping data accurate and safe through ACID rules:
+ - Atomicity: A transaction happens fully or not at all.
+ - Consistency: Data stays valid before and after the transaction.
+ - Isolation: Transactions don’t affect each other, even if they run at the same time.
+ -  Durability: Once saved, data stays safe even after a system crash.
+These systems power live business apps, like banking or retail systems. Often referred to as line of business (LOB) applications.
