@@ -13,4 +13,9 @@ Non-relational data does not use tables to store information. Instead, it uses f
 - test1
 ##Data can be classified as structured, semi-structured, or unstructured.
 
-## Structured data - Structured data - adheres to a fixed schema, in tabular format , has the same fields or properties.
+## Structured data - 
+Structured data - adheres to a fixed schema, in tabular format , has the same fields or properties.
+## Semi-structured data -
+is information that has some structure, but which allows for some variation between entity instances. e.g. JSON
+## Unstructured data -
+documents, images, audio and video data, and binary files might not have a specific structure. This kind of data is referred to as unstructured data.
