@@ -46,7 +46,7 @@ A database is used to define a central system in which data can be stored and qu
         Column family databases,
         Graph databases
 
-### transactional data processing
+### Transactional data processing
 A transactional data processing system is a computer system that records important business events, like money transfers in a bank or payments in a store. Each transaction is a small, separate piece of work that the system keeps track of.
 
 OLTP systems use databases designed for fast reading and writing of data. They handle day-to-day business transactions (create, read, update, delete – CRUD) while keeping data accurate and safe through ACID rules:
@@ -55,3 +55,8 @@ OLTP systems use databases designed for fast reading and writing of data. They h
  - Isolation: Transactions don’t affect each other, even if they run at the same time.
  -  Durability: Once saved, data stays safe even after a system crash.
 These systems power live business apps, like banking or retail systems. Often referred to as line of business (LOB) applications.
+
+### Analytical data processing
+<img width="1188" height="270" alt="image" src="https://github.com/user-attachments/assets/a827303e-87f5-4dd9-a90b-3276c35a8bd0" />
+<img width="594" height="135" alt="analytical-processing" src="https://github.com/user-attachments/assets/f83047a3-72b0-4c25-8558-6d037a103227" />
+
