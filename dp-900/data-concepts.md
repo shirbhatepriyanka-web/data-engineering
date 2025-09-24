@@ -58,5 +58,5 @@ These systems power live business apps, like banking or retail systems. Often re
 
 ### Analytical data processing
 <img width="1188" height="270" alt="image" src="https://github.com/user-attachments/assets/a827303e-87f5-4dd9-a90b-3276c35a8bd0" />
-<img width="594" height="135" alt="analytical-processing" src="https://github.com/user-attachments/assets/f83047a3-72b0-4c25-8558-6d037a103227" />
+
 
