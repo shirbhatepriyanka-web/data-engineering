@@ -57,6 +57,13 @@ OLTP systems use databases designed for fast reading and writing of data. They h
 These systems power live business apps, like banking or retail systems. Often referred to as line of business (LOB) applications.
 
 ### Analytical data processing
+Analytical data processing typically uses read-only (or read-mostly) systems that store vast volumes of historical data or business metrics.
+a common architecture for enterprise-scale analytics looks like this:
+
 <img width="1188" height="270" alt="image" src="https://github.com/user-attachments/assets/a827303e-87f5-4dd9-a90b-3276c35a8bd0" />
 
-
+Data Engineer extracts raw data and loads it into a data lake.
+Data is organized into tables in a lakehouse (Spark) or data warehouse (SQL).
+Data is aggregated into an OLAP cube (fact + dimension tables) for fast analysis.
+Data Analysts/BI use these sources to create reports, dashboards, and visualizations.
+Data Scientists may use the lake/warehouse for advanced ML/AI modeling.
