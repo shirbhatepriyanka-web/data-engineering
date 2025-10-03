@@ -67,3 +67,78 @@ a common architecture for enterprise-scale analytics looks like this:
 - Data is aggregated into an OLAP cube (fact + dimension tables) for fast analysis.
 - Data Analysts/BI use these sources to create reports, dashboards, and visualizations.
 - Data Scientists may use the lake/warehouse for advanced ML/AI modeling.
+
+### Use Case: Banking – Fraud Detection & Customer Insights
+1. Operational Data (Source Systems)
+
+Comes from:
+
+Core banking system → deposits, withdrawals, transfers.
+
+Credit card transactions → purchases, swipes, online payments.
+
+Customer relationship management (CRM) → customer profiles.
+
+Trading platforms → money market, FX deals.
+
+2. Data Lake (Raw Storage)
+
+Stores raw logs & transactions in any format (JSON, CSV, XML).
+
+Example: Every card swipe with timestamp, amount, location, device ID.
+
+👩‍💻 Role: Data Engineer
+
+Builds ETL pipelines to pull data from core banking apps, payment systems.
+
+Cleans and organizes raw data into the data lake.
+
+3. Data Warehouse / Lakehouse (Structured Data)
+
+Data is transformed into tables for reporting & analysis.
+
+Example:
+
+Fact Table → Transactions.
+
+Dimensions → Customer, Account, Branch, Time, Channel (ATM, POS, Mobile).
+
+👩‍💻 Role: Data Engineer + DBA
+
+Create schema, optimize queries, manage partitions.
+
+Ensure data quality, integrity, governance, and compliance (very important in banking).
+
+4. OLAP Cube (Aggregations)
+
+Pre-aggregated data for fast reporting.
+
+Example:
+
+Total transactions by branch per day.
+
+Average transaction size by customer segment.
+
+High-risk transactions by country.
+
+👩‍💻 Role: Data Analyst + Data Engineer
+
+Data Engineer: builds pipelines to feed OLAP cubes.
+
+Data Analyst: defines useful measures/dimensions (e.g., fraud rate by region).
+
+5. Reporting, Dashboards, Insights
+
+Business Analysts / Data Analysts build dashboards:
+
+Fraud trends by geography.
+
+High-value customers’ portfolio analysis.
+
+Daily liquidity reports for treasury.
+
+Tools: Power BI, Tableau, Qlik.
+
+👩‍💻 Role: Data Analyst / BI Developer
+
+Create visualizations & reports for compliance teams, risk managers, and executives.
