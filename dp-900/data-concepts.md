@@ -155,3 +155,12 @@ Market analytics → Predict FX or money market demand.
 Builds predictive models using Python, R, Spark ML.
 
 Collaborates with analysts to define features (e.g., frequency of high-value transfers).
+
+| Stage                             | Who                              | Responsibility                                     |
+| --------------------------------- | -------------------------------- | -------------------------------------------------- |
+| ETL into Data Lake                | **Data Engineer**                | Build pipelines, move raw data, ensure quality     |
+| Organize into Warehouse/Lakehouse | **Data Engineer + DBA**          | Define schema, optimize queries, ensure compliance |
+| Aggregation (OLAP Cube)           | **Data Engineer + Data Analyst** | Build cubes, define measures/dimensions            |
+| Reporting & Dashboards            | **Data Analyst / BI Developer**  | Create dashboards, business insights               |
+| Advanced Analytics (ML/AI)        | **Data Scientist**               | Fraud detection, churn prediction, forecasting     |
+
