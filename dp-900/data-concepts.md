@@ -142,3 +142,16 @@ Tools: Power BI, Tableau, Qlik.
 👩‍💻 Role: Data Analyst / BI Developer
 
 Create visualizations & reports for compliance teams, risk managers, and executives.
+6. Advanced Analytics (ML/AI Models)
+
+Fraud detection → ML model detects unusual patterns (e.g., multiple transactions in different countries within minutes).
+
+Customer insights → Predict which customers are likely to churn or take a loan.
+
+Market analytics → Predict FX or money market demand.
+
+👩‍💻 Role: Data Scientist
+
+Builds predictive models using Python, R, Spark ML.
+
+Collaborates with analysts to define features (e.g., frequency of high-value transfers).
