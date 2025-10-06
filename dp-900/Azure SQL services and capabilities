@@ -1,1 +1,4 @@
-
+## Azure SQL services and capabilities
+### Azure SQL is a collective term for SQL Server based databases in Azure
+### Specific Azure SQL services include:
+- SQL Server on Azure Virtual Machines (VMs) 
